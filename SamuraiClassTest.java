@@ -10,5 +10,6 @@ public class SamuraiClassTest {
         sasuke.displayHealth();
         System.out.println("Sasuke's remaining health is " + sasuke.health);
         System.out.println("Naruto's remaining health is " + naruto.health);
+        System.out.println("There are " + naruto.howMany() + " samurais.");
     }
 }
